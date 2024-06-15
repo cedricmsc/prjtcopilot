@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is the date and the weather today</title>
+    <style>
+        /*
+            display a dark background for the heading
+            display the heading in white
+            add padding to the heading
+            remove the margin of the body
+            increase the font size of the heading to 2rem
+            align the paragraph to the center
+        */
+       
+        body {
+            margin: 0;
+        }
+        h1 {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>What is the date and the weather today</h1>
+    <p id="date">Date</p>
+    <p id="weather">Weather</p>
+    <p id="temperature">Temperature</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
